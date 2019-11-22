@@ -12,7 +12,7 @@
 const char *ssid = "silentlad";
 const char *password = "Silentlad1!";
 
-WiFiServer server(1234);
+WiFiServer server(80);
 
 // Current time
 unsigned long currentTime = millis();
@@ -220,7 +220,7 @@ void loop()
                                  //  curshow = abs(curshow);
                                  //  Serial.print(sensorvalue);
                                  //  Serial.print(" ");
-    Serial.println(curshow);
+    // Serial.println(curshow);
     //  FillLEDsFromPaletteColors( startIndex,curshow,0);
     // FillLEDsFromPaletteColors(startIndex, curshow, 1);
     //  FillLEDsFromPaletteColors( startIndex,curshow,2);
