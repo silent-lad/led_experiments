@@ -20,6 +20,7 @@ unsigned long currentTime = millis();
 unsigned long previousTime = 0;
 // Define timeout time in milliseconds (example: 2000ms = 2s)
 const long timeoutTime = 2000;
+String header;
 
 // Decode HTTP GET value
 String redString = "0";
